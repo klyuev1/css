@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="info">
+    <main>
+        <section class="info">
             <img class="avatar" src="photo.jpg" alt="Тут моя фотка">
-            <div class="info-text">
+            <article class="info-text">
                 <h1>Артём Клюев</h1>
                 <p>Я инженер-проектировщик систем ОВ.</p>
                 <p>Заинтересован в получении нового опыта, повышении компетенции и квалификации. Не боюсь сталкиваться с новыми неизвестными ситуациями. Считаю себя исполнительным человеком, для которого приоритетны качество проделанной работы. На прошлом месте работы имел в подчинении одного сотрудника. Хорошо коммуницирую с людьми.</p>
@@ -22,10 +22,13 @@
                 <a href="https://instagram.com/klyuev1" target="_blank">Instagram</a>
                 |
                 <a href="https://t.me/ArtemKluev" target="_blank">Telegram</a>
-            </div>
-        </div> 
+                <!-- атрибут download ниже -->
+                <h4><a href="Resume.pdf" target="_blank" download="Мое резюме.pdf">Скачать Резюме в PDF</a></h4>
+                
+            </article>
+        </section> 
 
-        <div class="card bg-yellow" >    
+        <section class="card bg-yellow" >    
             <h2>Мои хобби</h2>
             <ol class="list">
                 <li>Сноубординг</li>
@@ -33,9 +36,9 @@
                 <li>Бег</li>
                 <li>Серфинг</li>
             </ol>
-        </div>
+        </section>
     
-        <div class="card bg-green">
+        <section class="card bg-green">
             <h2>Опыт работы</h2>
             <table class="table">
                 <tr>
@@ -59,9 +62,9 @@
                     <td>2023-now</td>
                 </tr>
             </table>
-        </div>
+        </section>
         
-        <div class="card bg-red">
+        <section class="card bg-red">
             <h2>Мои проекты</h2>
             <ul class="link-list">
                 <li>    
@@ -77,9 +80,9 @@
                     <a href="">Проектная документация по объекту, Глобус, д.3, раздел - Вентиляция</a>
                 </li>
             </ul>
-        </div>
+        </section>
 
-        <div class="contact">
+        <footer class="contact">
             <h2>Связаться со мной</h2>
             <form action="/">
                 <div class="row">
@@ -102,13 +105,13 @@
                 
                 <input class="btn" type="submit" value="Связаться">
             </form>
-        </div>
-        <div class="position">
+        </footer>
+        <aside class="position">
             <div class="box">
                 <p class="box-text"><a href="https://vk.com/id211661966" target="_blank" title="Страница ВК">Hello!</a></p>
             </div>
-        </div>
-    </div>
+        </aside>
+    </main>
     <!-- <div style="height: 900px;"></div> -->
 </body>
 </html>
